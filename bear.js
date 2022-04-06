@@ -8,8 +8,8 @@
 
 [rewrite_local]
 
-# > 克拉壁纸解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
+# > Bear 订阅解锁
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chixq/qt-scripts/main/bear.js
 
 [mitm] 
 
