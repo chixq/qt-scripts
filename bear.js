@@ -1,6 +1,21 @@
 /*
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body JS/bear.js
-buy.itunes.apple.com
+ *
+ *
+脚本功能：Bear 订阅
+使用声明：⚠️此脚本仅供学习与交流，
+        请勿转载与贩卖！⚠️⚠️⚠️
+*******************************
+
+[rewrite_local]
+
+# > 克拉壁纸解锁订阅
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
+
+[mitm] 
+
+hostname = buy.itunes.apple.com
+*
+*
 */
 
 var obj = JSON.parse($response.body);
